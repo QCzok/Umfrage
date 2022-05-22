@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <title>Umfrage</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <img src="https://sd.keepcalms.com/i/einen-sch%C3%B6nen-montag-morgen.png"
+                alt="meme with a monkey face and a quote 'Einen schönen Montag Morgen'">
+            <form action="https://formspree.io/f/xpzbbzzb" method="POST">
+                <!-- Pseudonym-->
+                <label for="Pseudonym" class="field">Pseudonym <sup>*</sup></label>
+                <input type="text" name="Pseudonym" id="Pseudonym" required>
+                <!-- Question about travel destination -->
+                <label for="Question" class="field">Wo möchtest du im Sommer in den Urlaub fahren?</label>
+                <textarea name="Question" id="Question" cols="30" rows="10" placeholder="Urlaubsziel"></textarea>
+                <!-- poll about topics and exercises-->
+                <div class="field">
+                    <p>Möchtest du in den nächsten Wochen mehr an Projekten arbeiten oder lieber neue Methoden
+                        kennenlernen?
+                    </p>
+                    <div>
+                        <input type="radio" name="poll" id="AnswerA" value="Übungen">
+                        <label for="AnswerA">mehr Übungen</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="poll" id="AnswerB" value="Methoden">
+                        <label for="AnswerB">neue Methoden</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="poll" id="AnswerC" value="beides">
+                        <label for="AnswerC">beides im Gleichgewicht</label>
+                    </div>
+                </div>
+                <!-- Submit -->
+                <button type="submit" class="field">Senden</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

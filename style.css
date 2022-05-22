@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.field {
+    display: block;
+    margin: 20px 0px 5px 0px;
+}
+
+/* Styling */
+p {
+    margin-bottom: 10px;
+}
+
+section {
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+}
+
+main {
+    text-align: center;
+}
+
+select,
+button,
+input[type="text"],
+textarea {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: white;
+    border: 2px solid #4CAF50;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
